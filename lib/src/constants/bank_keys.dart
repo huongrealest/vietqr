@@ -1,0 +1,56 @@
+ 
+class BankKey {
+  static const BIDC = 'bidc';
+  static const BIDV = 'bidv';
+  static const CAKE = 'cake';
+  static const CBBANK = 'cbbank';
+  static const CIMB = 'cimb';
+  static const COOP_BANK = 'coopbank';
+  static const DBS_BANK = 'dbsbank';
+  static const DONG_A_BANK = 'dongabank';
+  static const EXIMBANK = 'eximbank';
+  static const GPBANK = 'gpbank';
+  static const HDBANK = 'hdbank';
+  static const HONGLEONG_BANK = 'hongleongbank';
+  static const HSBC = 'hsbc';
+  static const IBK_HCM = 'ibkhcm';
+  static const IBK_HN = 'ibkhn';
+  static const INDOVINA_BANK = 'indovinabank';
+  static const KASIKORN_BANK = 'kasikorn';
+  static const KIENLONG_BANK = 'kienlongbank';
+  static const KOOKMIN_BANK_HCM = 'kookminhcm';
+  static const KOOKMIN_BANK_HN = 'kookminhn';
+  static const LIENVIETPOST_BANK = 'lienvietpostbank';
+  static const MBBANK = 'mbbank';
+  static const MSB = 'msb';
+  static const NAM_A_BANK = 'namabank';
+  static const NCB = 'ncb';
+  static const NONGHYUP_BANK_HN = 'nonghyup';
+  static const OCB = 'ocb';
+  static const OCEANBANK = 'oceanbank';
+  static const PGBANK = 'pgbank';
+  static const PUBLIC_BANK = 'publicbank';
+  static const PVCOM_BANK = 'pvcombank';
+  static const SACOMBANK = 'sacombank';
+  static const SAIGONBANK = 'saigonbank';
+  static const SCB = 'scb';
+  static const SEA_BANK = 'seabank';
+  static const SHB = 'shb';
+  static const SHINHAN_BANK = 'shinhanbank';
+  static const STANDARD_CHARTERED_BANK = 'standardcharteredbank';
+  static const TECHCOMBANK = 'techcombank';
+  static const TIMO = 'timo';
+  static const TPBANK = 'tpbank';
+  static const UBANK = 'ubank';
+  static const UNITED_OVERSEAS_BANK = 'uob';
+  static const VIB = 'vib';
+  static const VIET_A_BANK = 'vietabank';
+  static const VIET_BANK = 'vietbank';
+  static const VIETCAPITAL_BANK = 'banviet';
+  static const VIETCOMBANK = 'vietcombank';
+  static const VIETINBANK = 'vietinbank';
+  static const VPBANK = 'vpbank';
+  static const VRB = 'vrb';
+  static const WOORI_BANK = 'wooribank';
+}
+ 
