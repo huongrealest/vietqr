@@ -168,7 +168,7 @@ class QrPay {
   }
 
   factory QrPay.vietQR({
-    required String bankCode,
+    required Bank bank,
     required String bankNumber,
     String? amount,
     VietQRService? service,
@@ -181,7 +181,7 @@ class QrPay {
       service: (service ?? VietQRService.BY_ACCOUNT_NUMBER).value,
     );
     final consumer = Consumer(
-      bankBin: bankMap[bankCode]?.bin ?? '',
+      bankBin: bank.bin,
       bankNumber: bankNumber,
     );
     return QrPay(

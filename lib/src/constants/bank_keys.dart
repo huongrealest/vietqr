@@ -1,7 +1,5 @@
  
 class BankKey {
-  static const BIDC = 'bidc';
-  static const BIDV = 'bidv';
   static const CAKE = 'cake';
   static const CBBANK = 'cbbank';
   static const CIMB = 'cimb';
