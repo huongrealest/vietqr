@@ -32,7 +32,7 @@ enum Bank {
   EIB(
     code: 'EIB',
     bin: '970431',
-    icon: 'assets/ACB.png',
+    icon: 'assets/EIB.png',
     name: 'Ngân hàng TMCP Xuất Nhập khẩu Việt Nam',
   );
 
