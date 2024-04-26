@@ -1,7 +1,7 @@
 class StringHelper {
   static String genCRCCode(String content) {
     final crcCode = crc16ccitt(content).toRadixString(16).toUpperCase();
-    return '0000$crcCode'.substring(4);
+    return '0000$crcCode'.slice(-4);
   }
 
   static String genFieldData(String? id, String? value) {
@@ -284,4 +284,15 @@ class StringHelper {
     0x0ed1,
     0x1ef0,
   ];
+}
+
+extension StringX on String {
+  String slice(int start, [int end = -1]) {
+    final _start = start < 0 ? start + length : start;
+    final _end = end < 0 ? end + length : end;
+
+    RangeError.checkValidRange(_start, _end, length);
+
+    return substring(_start, _end + 1);
+  }
 }

@@ -1,5 +1,4 @@
 import 'package:vietqr/src/constants/constanst.dart';
-import 'package:vietqr/src/model/bank_model.dart';
 import 'package:vietqr/src/utils/utils.dart';
 
 class QrPay {
