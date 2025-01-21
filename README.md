@@ -1,4 +1,4 @@
-# vietqr
+# Vietqr Generation
 
 # Tài liệu
  - [VietQR Document](https://vietqr.net/portal-service/download/documents/QR_Format_T&C_v1.0_VN_092021.pdf)

@@ -1,4 +1,4 @@
-name: vietqr
+name: vietqr_generator
 description: A Package supporting content creation for QR money transfer
 version: 1.0.0
 homepage: https://github.com/huongrealest/vietqr

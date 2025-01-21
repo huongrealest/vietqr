@@ -1,5 +1,5 @@
-import 'package:vietqr/src/constants/constants.dart';
-import 'package:vietqr/src/helper/string.dart';
+import 'package:vietqr_generator/src/constants/constants.dart';
+import 'package:vietqr_generator/src/helper/string.dart';
 
 class QrPay {
   final String? version;
