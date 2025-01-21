@@ -1,4 +1,6 @@
+include: package:lint/analysis_options_package.yaml
+
 linter:
   rules:
-    avoid_print: false
-    constant_identifier_names: false
+    prefer_single_quotes: true
+    no_leading_underscores_for_local_identifiers: false

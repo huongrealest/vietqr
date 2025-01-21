@@ -1,19 +1,19 @@
 enum FieldID {
-  VERSION('00'),
-  INIT_METHOD('01'),
-  VIETQR('38'),
-  CATEGORY('52'),
-  CURRENCY('53'),
-  AMOUNT('54'),
-  TIP_AND_FEE_TYPE('55'),
-  TIP_AND_FEE_AMOUNT('56'),
-  TIP_AND_FEE_PERCENT('57'),
-  NATION('58'),
-  MERCHANT_NAME('59'),
-  CITY('60'),
-  ZIP_CODE('61'),
-  ADDITIONAL_DATA('62'),
-  CRC('63');
+  version('00'),
+  initMethod('01'),
+  vietqr('38'),
+  category('52'),
+  currency('53'),
+  amount('54'),
+  tipAndFeeType('55'),
+  tipAndFeeAmount('56'),
+  tipAndFeePercent('57'),
+  nation('58'),
+  merchantName('59'),
+  city('60'),
+  zipCode('61'),
+  addtionalData('62'),
+  crc('63');
 
   const FieldID(this.value);
 
@@ -21,9 +21,9 @@ enum FieldID {
 }
 
 enum ProviderFieldID {
-  GUID('00'),
-  DATA('01'),
-  SERVICE('02');
+  guid('00'),
+  data('01'),
+  service('02');
 
   const ProviderFieldID(this.value);
 
@@ -31,8 +31,8 @@ enum ProviderFieldID {
 }
 
 enum VietQRService {
-  BY_ACCOUNT_NUMBER('QRIBFTTA'), // Dịch vụ chuyển nhanh NAPAS247 đến Tài khoản
-  BY_CARD_NUMBER('QRIBFTTC'); // Dịch vụ chuyển nhanh NAPAS247 đến Thẻ
+  byAccountNumber('QRIBFTTA'), // Dịch vụ chuyển nhanh NAPAS247 đến Tài khoản
+  byCardNumber('QRIBFTTC'); // Dịch vụ chuyển nhanh NAPAS247 đến Thẻ
 
   const VietQRService(this.value);
 
@@ -40,8 +40,8 @@ enum VietQRService {
 }
 
 enum VietQRConsumerFieldID {
-  BANK_BIN('00'),
-  BANK_NUMBER('01');
+  bankBin('00'),
+  bankNumber('01');
 
   const VietQRConsumerFieldID(this.value);
 
@@ -49,15 +49,15 @@ enum VietQRConsumerFieldID {
 }
 
 enum AdditionalDataID {
-  BILL_NUMBER('01'), // Số hóa đơn
-  MOBILE_NUMBER('02'), // Số ĐT
-  STORE_LABEL('03'), // Mã cửa hàng
-  LOYALTY_NUMBER('04'), // Mã khách hàng thân thiết
-  REFERENCE_LABEL('05'), // Mã tham chiếu
-  CUSTOMER_LABEL('06'), // Mã khách hàng
-  TERMINAL_LABEL('07'), // Mã số điểm bán
-  PURPOSE_OF_TRANSACTION('08'), // Mục đích giao dịch
-  ADDITIONAL_CONSUMER_DATA_REQUEST('09'); // Yêu cầu dữ liệu KH bổ sung
+  billNumber('01'), // Số hóa đơn
+  mobileNumber('02'), // Số ĐT
+  storeLabel('03'), // Mã cửa hàng
+  loyaltyNumber('04'), // Mã khách hàng thân thiết
+  referenceLabel('05'), // Mã tham chiếu
+  customerLabel('06'), // Mã khách hàng
+  terminalLabel('07'), // Mã số điểm bán
+  purposeOfTransaction('08'), // Mục đích giao dịch
+  addtionalConsumerDataRequest('09'); // Yêu cầu dữ liệu KH bổ sung
 
   const AdditionalDataID(this.value);
 

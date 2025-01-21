@@ -1,4 +1,6 @@
 class StringHelper {
+  StringHelper._();
+
   static String genCRCCode(String content) {
     final crcCode = crc16ccitt(content).toRadixString(16).toUpperCase();
     return '0000$crcCode'.slice(-4);
@@ -14,7 +16,7 @@ class StringHelper {
   }
 
   static int crc16ccitt(String content) {
-    List<int> current = _stringToUint8List(content);
+    final List<int> current = _stringToUint8List(content);
     int crc = 0xffff;
     for (int index = 0; index < current.length; index++) {
       crc = (table[((crc >> 8) ^ current[index]) & 0xff] ^ (crc << 8)) & 0xffff;
