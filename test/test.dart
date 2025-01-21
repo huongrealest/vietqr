@@ -1,4 +1,4 @@
-import 'package:vietqr_generator/vietqr.dart';
+import 'package:vietqr_generator/vietqr_generator.dart';
 
 void main() {
   final qr = QrPay.vietQR(
